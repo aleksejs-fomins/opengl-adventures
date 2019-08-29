@@ -1,0 +1,7 @@
+sudo apt-get update
+
+# Basics
+sudo apt-get g++ cmake build-essential mesa-common-dev binutils-gold 
+
+# Dependent libraries
+sudo apt-get install freeglut3 freeglut3-dev libglm-dev libsoil-dev libglew-dev libglew1.5-dev libsdl2-2.0-0 libsdl2-dev libglfw3 libglfw3-dev libsfml-dev
